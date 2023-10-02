@@ -1,0 +1,29 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  background-color: #F4F5F9;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin:20px 20px 20px 30px;
+  background-color: #F4F5F9;
+  /* width: 100%; */
+
+}
+
+.middle-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}

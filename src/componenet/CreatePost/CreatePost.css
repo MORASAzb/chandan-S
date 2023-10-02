@@ -1,0 +1,66 @@
+.add-post-item {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 762px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 30px;
+
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+}
+
+.form-control input {
+    width: 630px;
+    border: none;
+    background-color: #FAFBFF;
+
+    padding: 1rem 0;
+    border-radius: 8px;
+
+}
+
+.form-control input::placeholder {
+    font-size: 12px;
+    color: #5B5D67;
+    font-family: "Inter";
+    padding: 0.5rem;
+}
+
+.form-action {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-action button {
+    font-family: "Inter";
+   
+}
+
+.btn{
+    font-family: "Inter";
+    display: flex;
+    height: 40px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background:  #4361EE;
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Pulp Display';
+    src: url('PulpDisplay-MediumItalic.eot');
+    src: local('Pulp Display Medium Italic'), local('PulpDisplay-MediumItalic'),
+        url('PulpDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('PulpDisplay-MediumItalic.woff2') format('woff2'),
+        url('PulpDisplay-MediumItalic.woff') format('woff'),
+        url('PulpDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.side-bar-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FCFCFC;
+
+    height: 100vh;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.top{
+    margin: 0 30px 20px 30px;
+}
+
+.topic {
+    color: #000;
+    font-family: 'Pulp Display';
+    font-size: 25.364px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin: 30px 0 10px 50px; */
+    margin-top: 50px;
+}
+
+.topic::before {
+    content: url(/public/image/topic.png);
+    margin-right: 10px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    cursor: pointer;
+    padding: 16px;
+    /* margin: 30px 0 10px 50px; */
+
+}
+
+.navigation li {
+    color: #5B5D67;
+    font-family: 'Pulp Display';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.navigation li.active {
+    background-color: #EAEDFB;
+    color: #000;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 10px;
+    width: 130%;
+}
+
+.home::before {
+    content: url(/public/image/home-2.png);
+    margin-right: 14px;
+}
+
+.messages::before {
+    content: url(/public/image/message-text.png);
+    margin-right: 14px;
+}
+
+.profile::before {
+    content: url(/public/image/user-square.png);
+    margin-right: 14px;
+}
+
+.saved-post::before {
+    content: url(/public/image/save-2.png);
+    margin-right: 14px;
+}
+
+.market-place::before {
+    content: url(/public/image/activity.png);
+    margin-right: 14px;
+}
+
+.update-massage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 30px;
+    background-color: #E8ECFD;
+    border-radius: 12px;
+    margin: 0 30px 20px 30px;
+    gap: 15px;
+    width: 222px;
+}
+
+.massage-text {
+    color: #171923;
+    font-family: 'Pulp Display';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+text-align: left;
+}
+
+.download a {
+    color: #4361EE;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+}
